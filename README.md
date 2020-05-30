@@ -1,10 +1,10 @@
 # vercel-dev-ruby
-A dev server for ruby serverless functions, following [Vercel](https://vercel.com) api requirements.
+A dev server for Ruby serverless functions, following [Vercel](https://vercel.com) api conventions.
 
-Run locally your serverless functions, the Vercel way.
+Run locally your Ruby serverless functions, the Vercel way.
 Ruby support is currently in Alpha stage, and the CLI is missing vc-dev for Ruby.
 
-__Waiting for advanced Ruby support, this server provides `vc-dev` features__
+__Waiting for official advanced Ruby support, this server provides `vc-dev` features__
 
 ## Installation
 
@@ -15,6 +15,8 @@ Install WEBrick
 Copy `server.rb` to e.g. `<your_project_folder>/dev`
 
 Copy the example function `api/testwr.rb` or wite your own inside `<your_project_folder>/api`
+
+__Notice__: when you write a new function, you must require and mount it in `server.rb`
 
 ## Usage
 
