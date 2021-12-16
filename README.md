@@ -9,7 +9,7 @@ __Waiting for official advanced Ruby support, this server provides `vc-dev` feat
 ## Installation
 
 Install WEBrick 
- - If you use bundler: add `gem 'webrick` to your Gemfile and run `bundle install`,
+ - If you use bundler: add `gem 'webrick'` to your Gemfile and run `bundle install`,
  - otherwise: `gem install webrick`.
 
 Copy `server.rb` to e.g. `<your_project_folder>/dev`
